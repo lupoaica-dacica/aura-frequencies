@@ -1,84 +1,68 @@
 {
   "id": "/",
   "scope": "/",
-  "name": "PWA Starter",
-  "display": "standalone",
+  "name": "Aura Frequencies",
+  "short_name": "Aura",
+  "description": "Aura Frequencies - A Progressive Web App for immersive digital experiences. Fast, offline-capable, and installable on any device.",
   "start_url": "/",
-  "short_name": "starter",
+  "display": "standalone",
+  "orientation": "portrait-primary",
   "theme_color": "#E1477E",
-  "description": "This is a PWA Starter app",
-  "orientation": "any",
   "background_color": "#E1477E",
-  "related_applications": [],
-  "prefer_related_applications": false,
+  "categories": ["productivity", "social"],
   "display_override": ["window-controls-overlay"],
   "launch_handler": {
     "client_mode": "focus-existing"
   },
+  "related_applications": [],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "assets/icons/512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/icons/192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/icons/48x48.png",
       "sizes": "48x48",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "assets/icons/24x24.png",
       "sizes": "24x24",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "screenshots": [
     {
       "src": "assets/screenshots/screen.png",
       "sizes": "1617x1012",
-      "type": "image/png"
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Aura Frequencies - Desktop View"
     }
-  ],
-  "features": [
-    "Cross Platform",
-    "fast",
-    "simple"
-  ],
-  "categories": [
-    "social"
   ],
   "shortcuts": [
     {
       "name": "Open About",
       "short_name": "About",
-      "description": "Open the about page",
+      "description": "Open the about page of Aura Frequencies",
       "url": "/about",
-      "icons": [{ "src": "assets/icons/192x192.png", "sizes": "192x192" }]
-    }
-  ],
-  "widgets": [
-    {
-      "name": "Starter Widget",
-      "tag": "starterWidget",
-      "ms_ac_template": "widget/ac.json",
-      "data": "widget/data.json",
-      "description": "A simple widget example from pwa-starter.",
-      "screenshots": [
-        {
-          "src": "assets/screenshots/widget-screen.png",
-          "sizes": "500x500",
-          "label": "Widget screenshot"
-        }
-      ],
       "icons": [
         {
-          "src": "assets/icons/48x48.png",
-          "sizes": "48x48"
+          "src": "assets/icons/192x192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any maskable"
         }
       ]
     }
